@@ -1,1 +1,508 @@
-HHI KIDS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>ValoCraft</title>
+<meta name="HandheldFriendly" content="True" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/font.css">
+<link rel="stylesheet" type="text/css" href="assets/built/theme.css" />
+<meta name="description" content="ValoCraft is a feature-packed Minecraft server which offers unique gamemodes such as skyblock, factions, prison and survival. We can&#x27;t wait to see you online!" />
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="canonical" href="index.html" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta property="og:site_name" content="ValoCraft" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ValoCraft" />
+<meta property="og:description" content="ValoCraft is a feature-packed Minecraft server which offers unique gamemodes such as survival, bedwars, minigames, the pit, skyblock and skywars. We can&#x27;t wait to see you online!" />
+<meta property="og:url" content="https://valocraft.in/" />
+<meta property="og:image" content="assets/logo.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ValoCraft - Website" />
+<meta name="twitter:description" content="View all of our latest news, sneak peaks and more on our brand new website!" />
+<meta name="twitter:url" content="https://valocraft.in/" />
+<meta name="twitter:image" content="assets/logo.png" />
+<meta name="twitter:site" content="@ValoCraftmc" />
+<meta property="og:image:width" content="2000" />
+<meta property="og:image:height" content="857" />
+<script type="application/ld+json">
+    </script>
+<meta name="generator" content="Ghost 4.32" />
+<link rel="alternate" type="application/rss+xml" title="ValoCraft" href="https://valocraft.in/rss/" />
+<script defer src="_tryghost/portal__1.12.0/umd/portal.min.js" data-ghost="https://valocraft.in/" ></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+<script defer src="js/cards.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/cards.min.css">
+<script defer data-domain="valocraft.in" src="js/plausible.js"></script>
+<script>
+var global = {
+    ip: 'play.valocraft.in',
+    discord: {
+        id: '879207790139306034', // Put your Discord server ID here, available in server settings
+        link: 'https://discord.gg/M5xxAMuJ9j'
+    },
+}
+</script><style>:root {--ghost-accent-color: #ffc93d;}</style>
+<script src="npm/axios/dist/axios.min.js"></script>
+<script src="gh/alpinejs/alpine_v2.x.x/dist/alpine.min.js" defer></script>
+  <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=c76e4d6370dbe' async='true'></script>
+</head>
+<body>
+<div class="site-wrap">
+<header class="site-header relative">
+<div class="clouds">
+<div class="layer-one"></div>
+<div class="layer-two"></div>
+<div class="layer-three"></div>
+</div>
+<svg fill="currentColor" class="wave" preserveAspectRatio="none" viewBox="0 0 1440 83" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M47.4694 20.8187C122.804 42.296 222.186 70.6289 409.5 49C726.618 12.3829 789 9.50001 1086 43.5C1271.47 64.732 1385.22 31.8972 1440 5.44763V83H0V8.11478C15.1007 11.5906 30.6885 16.0345 47.4694 20.8187Z" />
+</svg>
+<div class="hero container mx-auto relative z-10">
+<div class="servers lg:flex lg:items-center lg:justify-between">
+<div class="server relative server-mc py-5 flex items-center justify-center transition-opacity hover:opacity-75 cursor-pointer" x-data="minecraft()" x-init="ping()" :data-clipboard-text="ip" x-ref="clipboard">
+<div class="icon bg-white rounded-lg p-4 text-brand-sky mx-6 hidden lg:block">
+<svg fill="currentColor" viewBox="0 0 128 128" class="w-7 h-7">
+<path d="M42.6,38V4.7C42.6,2.1,40.5,0,38,0H4.7C2.1,0,0,2.1,0,4.7V38c0,2.6,2.1,4.7,4.7,4.7H38
+ 		C40.5,42.7,42.6,40.6,42.6,38z"></path>
+<path d="M123.3-0.1H89.9c-2.6,0-4.7,2.1-4.7,4.7V38c0,2.6,2.1,4.7,4.7,4.7h33.4c2.6,0,4.7-2.1,4.7-4.7V4.6
+ 		C128,2,125.9-0.1,123.3-0.1z"></path>
+<path d="M101.9,64h-12c-2.6,0-4.7-2.1-4.7-4.7v-12c0-2.6-2.1-4.7-4.7-4.7H47.3c-2.6,0-4.7,2.1-4.7,4.7v12
+ 		c0,2.6-2.1,4.7-4.7,4.7h-12c-2.6,0-4.7,2.1-4.7,4.7v54.6c0,2.6,2.1,4.7,4.7,4.7h12c2.6,0,4.7-2.1,4.7-4.7v-12
+ 		c0-2.6,2.1-4.7,4.7-4.7h33.3c2.6,0,4.7,2.1,4.7,4.7v12c0,2.6,2.1,4.7,4.7,4.7h12c2.6,0,4.7-2.1,4.7-4.7V68.7
+ 		C106.6,66.1,104.5,64,101.9,64z"></path>
+</svg>
+</div>
+<div class="text text-white font-bold">
+<div class="lg text-xl flex items-center">
+<span x-text="ip"></span>
+<svg class="w-5 h-5 mx-2 text-brand-dawn" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+</div>
+<div class="sm text-brand-dawn"><span x-text="$store.page.players.minecraft"></span> players online</div>
+</div>
+<div class="tooltip absolute flex items-center opacity-0 transition-all duration-200 pointer-events-none transform ml-5 text-white font-bold bottom-0 left-0" :class="{ 'opacity-0': !copied, 'translate-y-5': copied } ">
+<svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Copied to Clipboard!</span>
+</div>
+</div>
+<a :href="url" target="_blank" class="server server-ds py-5 hidden lg:flex items-center flex-row-reverse transition-opacity hover:opacity-75" x-data="discord()" x-init="ping()">
+<div class="icon bg-white rounded-lg p-4 text-brand-sky mx-6">
+<svg fill="currentColor" viewBox="0 0 245 240" class="w-7 h-7">
+<path d="M214.5,54.1c-30.1-22.6-58.8-22-58.8-22l-2.9,3.3c35.5,10.9,52.1,26.6,52.1,26.6
+	c-21.7-11.9-43.1-17.8-62.9-20.1c-15.1-1.7-29.5-1.3-42.2,0.4c-1.3,0-2.3,0.2-3.6,0.4c-7.3,0.6-25.1,3.3-47.5,13.2
+	c-7.7,3.6-12.3,6.1-12.3,6.1s17.4-16.5,55-27.4l-2.1-2.5c0,0-28.6-0.6-58.8,22c0,0-30.1,54.6-30.1,121.9c0,0,17.6,30.3,63.8,31.8
+	c0,0,7.7-9.4,14-17.4c-26.6-7.9-36.6-24.7-36.6-24.7s2.1,1.5,5.9,3.6c0.2,0.2,0.4,0.4,0.8,0.6c0.6,0.4,1.3,0.6,1.9,1
+	c5.2,2.9,10.5,5.2,15.3,7.1c8.6,3.3,18.8,6.7,30.7,9c15.7,2.9,34.1,4,54.2,0.2c9.8-1.7,19.9-4.6,30.3-9c7.3-2.7,15.5-6.7,24-12.3
+	c0,0-10.5,17.1-37.8,24.9c6.3,7.9,13.8,16.9,13.8,16.9c46.2-1.5,64-31.8,64-31.8C244.6,108.7,214.5,54.1,214.5,54.1z M83.3,157
+	c-11.7,0-21.4-10.5-21.4-23.3c0-12.8,9.4-23.3,21.4-23.3c12,0,21.6,10.5,21.4,23.3C104.7,146.5,95.2,157,83.3,157z M159.8,157
+	c-11.7,0-21.4-10.5-21.4-23.3c0-12.8,9.4-23.3,21.4-23.3c12,0,21.4,10.5,21.4,23.3C181.2,146.5,171.8,157,159.8,157z"></path>
+</svg>
+</div>
+<div class="text text-white font-bold lg:text-right">
+<div class="lg text-xl flex items-center lg:flex-row-reverse">
+<span>Discord Community</span>
+<svg class="w-5 h-5 mx-2 text-brand-dawn" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+</div>
+<div class="sm text-brand-dawn"><span x-text="$store.page.players.discord"></span> members online</div>
+</div>
+</a>
+</div>
+<div class="logo text-center py-6">
+<a href="index.html" class="inline-block mx-auto">
+<img src="assets/logo.png" alt="ValoCraft Logo" class="mx-auto">
+</a>
+</div>
+</div>
+<div class="container mx-auto flex relative z-10 top-8">
+<nav class="card navbar" x-data="menu()" @click.away="close()">
+<div class="nav-main">
+<div class="mobile-button" @click="toggle()" :class="{ 'open': open }">
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+</div>
+</div>
+<div class="nav-wrapper" :class="{ 'open': open }" :style="'height:' + height + 'px'" x-ref="menu">
+<ul class="menu">
+<li class="nav-item active nav-home">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li class="nav-item nav-play">
+<a class="nav-link" href="play.html">Play</a>
+</li>
+<li class="nav-item nav-rules">
+<a class="nav-link" href="rules.html">Rules</a>
+</li>
+<li class="nav-item nav-staff">
+<a class="nav-link" href="staff.html">Staff</a>
+</li>
+<li class="nav-item nav-suggestions">
+<a class="nav-link" href="suggestions.html">Suggestions</a>
+ </li>
+<li class="nav-item nav-banappeal">
+<a class="nav-link" href="ban-appeal.html">BanAppeal</a>
+ </li>
+<li class="nav-item nav-support">
+<a class="nav-link" href="support.html">Support</a>
+</li>
+<li class="nav-item nav-vote">
+<a class="nav-link" href="vote.html">Vote</a>
+  <li class="nav-item nav-partners">
+<a class="nav-link" href="partners.html">Partners</a>
+</li>
+</ul>
+</div>
+</nav>
+<a x-data="discord()" :href="url" target="_blank" class="nav-btn flex discord-btn lg:hidden">
+<svg fill="currentColor" viewBox="0 0 245 240" class="w-7 h-7">
+<path d="M214.5,54.1c-30.1-22.6-58.8-22-58.8-22l-2.9,3.3c35.5,10.9,52.1,26.6,52.1,26.6
+	c-21.7-11.9-43.1-17.8-62.9-20.1c-15.1-1.7-29.5-1.3-42.2,0.4c-1.3,0-2.3,0.2-3.6,0.4c-7.3,0.6-25.1,3.3-47.5,13.2
+	c-7.7,3.6-12.3,6.1-12.3,6.1s17.4-16.5,55-27.4l-2.1-2.5c0,0-28.6-0.6-58.8,22c0,0-30.1,54.6-30.1,121.9c0,0,17.6,30.3,63.8,31.8
+	c0,0,7.7-9.4,14-17.4c-26.6-7.9-36.6-24.7-36.6-24.7s2.1,1.5,5.9,3.6c0.2,0.2,0.4,0.4,0.8,0.6c0.6,0.4,1.3,0.6,1.9,1
+	c5.2,2.9,10.5,5.2,15.3,7.1c8.6,3.3,18.8,6.7,30.7,9c15.7,2.9,34.1,4,54.2,0.2c9.8-1.7,19.9-4.6,30.3-9c7.3-2.7,15.5-6.7,24-12.3
+	c0,0-10.5,17.1-37.8,24.9c6.3,7.9,13.8,16.9,13.8,16.9c46.2-1.5,64-31.8,64-31.8C244.6,108.7,214.5,54.1,214.5,54.1z M83.3,157
+	c-11.7,0-21.4-10.5-21.4-23.3c0-12.8,9.4-23.3,21.4-23.3c12,0,21.6,10.5,21.4,23.3C104.7,146.5,95.2,157,83.3,157z M159.8,157
+	c-11.7,0-21.4-10.5-21.4-23.3c0-12.8,9.4-23.3,21.4-23.3c12,0,21.4,10.5,21.4,23.3C181.2,146.5,171.8,157,159.8,157z"></path>
+</svg>
+</a>
+<a href="https://store.valocraft.in" class="nav-btn flex store-btn">
+<svg fill="currentColor" viewBox="0 0 20 20" class="w-7 h-7 opacity-50">
+<path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+<span class="hidden sm:block ml-2">Store</span>
+</a>
+</div>
+</header>
+<div class="page-content">
+<div class="container mx-auto">
+<div class="grid lg:grid-cols-2 gap-5">
+<a class="card post-card lg lg:col-span-2">
+<div class="post-image" style="background-image: url(https://media.discordapp.net/attachments/948984107755532288/949121907180052490/4583656.png?width=596&height=369)">
+<div class="tags">
+</div>
+</div>
+<div class="post-content">
+<div class="headline">ValoCraft</div>
+<div class="post-body max-w-3xl mx-auto">
+<p>Greetings ValoCraft! This Indian server was created only for you guys. Some players have ping issues so thats why this server is hosted in India to offer you the lowest ping possible.
+We also host tons of in game contests and events which motivates players to grind and be the best player amongst all.
+ValoCraft always keeps a better player experience a priority. We have an amazing team of staff working 24/7 to provide the best experience to our players at all times.</p>
+</div>
+<div class="post-footer">
+<div class="authors">
+<div class="author">
+</div>
+</div>
+<div class="date flex items-center capitalize">
+</div>
+</div>
+</div>
+</a>
+<a class="card post-card">
+<div class="post-image" style="background-image: url(https://i.ytimg.com/vi/jkJQrQwYmjY/maxresdefault.jpg)">
+<div class="tags">
+</div>
+</div>
+<div class="post-content">
+<div class="headline">Minigames</div>
+<div class="post-body max-w-3xl mx-auto">
+<p>Mini Games are a variety of modes exclusive to the Legacy Console Edition of Minecraft. Mini Games can be played solo, splitscreen on the same console, online, or with another console locally via an ad-hoc connection.</p>
+</div>
+<div class="post-footer">
+<div class="authors">
+<div class="author">
+
+</div>
+</div>
+<div class="date flex items-center capitalize">
+</div>
+</div>
+</div>
+</a>
+<a class="card post-card">
+<div class="post-image" style="background-image: url(https://media.discordapp.net/attachments/948984107755532288/949124831440433212/bedwars_1.png?width=1025&height=341)">
+<div class="tags">
+</div>
+</div>
+<div class="post-content">
+<div class="headline">Bedwars</div>
+<div class="post-body max-w-3xl mx-auto">
+<p>Bed Wars is a game played on Minecraft servers. It's a game similar to the official Minecraft minigames but created by independent developers. In BedWars teams of 2-4 start on separate islands with a bed. They have the aim of getting to and destroying the other team's bed.</p>
+</div>
+<div class="post-footer">
+<div class="authors">
+<div class="author">
+</div>
+</div>
+<div class="date flex items-center capitalize">
+</div>
+</div>
+</div>
+</a>
+<a class="card post-card">
+<div class="post-image" style="background-image: url(https://static.planetminecraft.com/files/resource_media/screenshot/1508/img_671_minecraft-survival-season-3-s2e106-320x180_6914915_l8651938.jpg)">
+<div class="tags">
+</div>
+</div>
+<div class="post-content">
+<div class="headline">Surivival</div>
+<div class="post-body max-w-3xl mx-auto">
+<p>In Minecraft Survival, the main goal is to survive, build, explore, and have fun, but also an optional goal in Survival is to defeat the ender dragon and the wither.</p>
+</div>
+<div class="post-footer">
+<div class="authors">
+<div class="author">
+</div>
+</div>
+<div class="date flex items-center capitalize">
+</div>
+</div>
+</div>
+</a>
+<a class="card post-card">
+<div class="post-image" style="background-image: url(https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/f23b9026-f7a8-48c4-8b12-3e778dc5fbf8/Skyblock_Thumbnail_0.jpg)">
+<div class="tags">
+</div>
+</div>
+<div class="post-content">
+<div class="headline">Skyblock</div>
+<div class="post-body max-w-3xl mx-auto">
+<p>Skyblock is a popular type of Minecraft survival map. It starts the player off on a small island in an endless sky, where they will have to use the limited resources that they have to survive, build, and thrive. At its core, Skyblock is a trial in resource management. Once a block is gone, it's gone forever.</p>
+</div>
+<div class="post-footer">
+<div class="authors">
+<div class="author">
+</div>
+</div>
+<div class="date flex items-center capitalize">
+</div>
+</div>
+</div>
+</a>
+<a class="card post-card">
+<div class="post-image" style="background-image: url(https://proxy.spigotmc.org/0910772c8cd73c34742fa970a69460ab9d70bf0b?url=http%3A%2F%2Fi.imgur.com%2FdLmrPnR.jpg)">
+<div class="tags">
+</div>
+</div>
+<div class="post-content">
+<div class="headline">Skywars</div>
+<div class="post-body max-w-3xl mx-auto">
+<p>Skywars is a multiplayer minigame where each player starts off on a separate island that is floating in the Void and tries to battle each other like in Player vs. Player (PvP). The main goal is to be the last person or team alive to win.</p>
+</div>
+<div class="post-footer">
+<div class="authors">
+<div class="author">
+</div>
+</div>
+<div class="date flex items-center capitalize">
+</div>
+</div>
+</div>
+</a>
+<a class="card post-card">
+<div class="post-image" style="background-image: url(https://static.wikia.nocookie.net/hypixelserver/images/f/f2/F505D3FE-36F4-4BD2-980B-5CC4B3B39F31.jpeg/revision/latest?cb=20180610093820)">
+<div class="tags">
+</div>
+</div>
+<div class="post-content">
+<div class="headline">The Pit</div>
+<div class="post-body max-w-3xl mx-auto">
+<p>It is a PvP minigame where players drop into a map and battle in a free-for-all scenario, receiving gold and experience for purchasing available items or advancing levels.</p>
+</div>
+<div class="post-footer">
+<div class="authors">
+<div class="author">
+</div>
+</div>
+<div class="date flex items-center capitalize">
+</div>
+</div>
+</div>
+</a>
+<a class="card post-card">
+<div class="post-image" style="background-image: url(https://static.wikia.nocookie.net/hypixelserver/images/4/41/Image-2.png/revision/latest?cb=20180504144328)">
+<div class="tags">
+</div>
+</div>
+<div class="post-content">
+<div class="headline">The Bridge</div>
+<div class="post-body max-w-3xl mx-auto">
+<p>The Bridge is a mode for the Duels minigame. It is a type of duel which involves 2 teams attempting to score goals on the opposite side by crossing a 1 block-wide bridge while attempting to protect their own goal.</p>
+</div>
+<div class="post-footer">
+<div class="authors">
+<div class="author">
+</div>
+</div>
+<div class="date flex items-center capitalize">
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<footer class="site-footer bg-gray-900 mt-16">
+<div class="container mx-auto">
+<div class="main grid md:grid-cols-2 lg:grid-cols-3 py-12 gap-8">
+<div class="col md:col-span-2 lg:col-span-1">
+<div class="title text-white font-bold text-xl pb-4">Want to join the fun?</div>
+<div class="content">
+<div class="server relative server-mc py-4 mb-5 flex items-center transition-opacity hover:opacity-75 cursor-pointer" x-data="minecraft()" x-init="clipboard()" :data-clipboard-text="ip" x-ref="clipboard">
+ <div class="icon bg-gray-800 rounded-lg p-4 text-brand-lemon mr-4">
+<svg fill="currentColor" viewBox="0 0 128 128" class="w-7 h-7">
+<path d="M42.6,38V4.7C42.6,2.1,40.5,0,38,0H4.7C2.1,0,0,2.1,0,4.7V38c0,2.6,2.1,4.7,4.7,4.7H38
+ 		C40.5,42.7,42.6,40.6,42.6,38z"></path>
+<path d="M123.3-0.1H89.9c-2.6,0-4.7,2.1-4.7,4.7V38c0,2.6,2.1,4.7,4.7,4.7h33.4c2.6,0,4.7-2.1,4.7-4.7V4.6
+ 		C128,2,125.9-0.1,123.3-0.1z"></path>
+<path d="M101.9,64h-12c-2.6,0-4.7-2.1-4.7-4.7v-12c0-2.6-2.1-4.7-4.7-4.7H47.3c-2.6,0-4.7,2.1-4.7,4.7v12
+ 		c0,2.6-2.1,4.7-4.7,4.7h-12c-2.6,0-4.7,2.1-4.7,4.7v54.6c0,2.6,2.1,4.7,4.7,4.7h12c2.6,0,4.7-2.1,4.7-4.7v-12
+ 		c0-2.6,2.1-4.7,4.7-4.7h33.3c2.6,0,4.7,2.1,4.7,4.7v12c0,2.6,2.1,4.7,4.7,4.7h12c2.6,0,4.7-2.1,4.7-4.7V68.7
+ 		C106.6,66.1,104.5,64,101.9,64z"></path>
+</svg>
+</div>
+<div class="text text-white font-bold">
+<div class="lg text-xl flex items-center">
+<span x-text="ip"></span>
+<svg class="w-5 h-5 mx-2 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+</div>
+<div class="sm text-gray-700"><span x-text="$store.page.players.minecraft"></span> players online</div>
+</div>
+<div class="tooltip absolute flex items-center opacity-0 transition-all duration-200 text-sm pointer-events-none transform text-white font-bold bottom-0 left-0" :class="{ 'opacity-0': !copied, 'translate-y-4': copied } ">
+<svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+<span>Copied to Clipboard!</span>
+</div>
+</div>
+<a :href="url" target="_blank" class="server server-ds py-4 flex items-center transition-opacity hover:opacity-75" x-data="discord()" x-init="ping()">
+<div class="icon bg-gray-800 rounded-lg p-4 text-brand-lemon mr-4">
+<svg fill="currentColor" viewBox="0 0 245 240" class="w-7 h-7">
+<path d="M214.5,54.1c-30.1-22.6-58.8-22-58.8-22l-2.9,3.3c35.5,10.9,52.1,26.6,52.1,26.6
+	c-21.7-11.9-43.1-17.8-62.9-20.1c-15.1-1.7-29.5-1.3-42.2,0.4c-1.3,0-2.3,0.2-3.6,0.4c-7.3,0.6-25.1,3.3-47.5,13.2
+	c-7.7,3.6-12.3,6.1-12.3,6.1s17.4-16.5,55-27.4l-2.1-2.5c0,0-28.6-0.6-58.8,22c0,0-30.1,54.6-30.1,121.9c0,0,17.6,30.3,63.8,31.8
+	c0,0,7.7-9.4,14-17.4c-26.6-7.9-36.6-24.7-36.6-24.7s2.1,1.5,5.9,3.6c0.2,0.2,0.4,0.4,0.8,0.6c0.6,0.4,1.3,0.6,1.9,1
+	c5.2,2.9,10.5,5.2,15.3,7.1c8.6,3.3,18.8,6.7,30.7,9c15.7,2.9,34.1,4,54.2,0.2c9.8-1.7,19.9-4.6,30.3-9c7.3-2.7,15.5-6.7,24-12.3
+	c0,0-10.5,17.1-37.8,24.9c6.3,7.9,13.8,16.9,13.8,16.9c46.2-1.5,64-31.8,64-31.8C244.6,108.7,214.5,54.1,214.5,54.1z M83.3,157
+	c-11.7,0-21.4-10.5-21.4-23.3c0-12.8,9.4-23.3,21.4-23.3c12,0,21.6,10.5,21.4,23.3C104.7,146.5,95.2,157,83.3,157z M159.8,157
+	c-11.7,0-21.4-10.5-21.4-23.3c0-12.8,9.4-23.3,21.4-23.3c12,0,21.4,10.5,21.4,23.3C181.2,146.5,171.8,157,159.8,157z"></path>
+</svg>
+</div>
+<div class="text text-white font-bold">
+<div class="lg text-xl flex items-center">
+<span>Discord Community</span>
+<svg class="w-5 h-5 mx-2 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+</div>
+<div class="sm text-gray-700"><span x-text="$store.page.players.discord"></span> members online</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col">
+<div class="title text-white font-bold text-xl pb-5">Important Links</div>
+<div class="content">
+<div class="darkswitch font-bold pb-3 px-1 z-50 cursor-pointer flex items-center" x-data @click="$store.page.darkmode = !$store.page.darkmode">
+<template x-if="$store.page.darkmode">
+<svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path></svg>
+</template>
+<template x-if="!$store.page.darkmode">
+<svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+</template>
+<span x-text="$store.page.darkmode ? 'Switch to Lightmode' : 'Switch to Darkmode'">Switch to Darkmode</span>
+</div>
+<div class="quicklinks text-lg">
+<a class="block py-1 transition-all hover:pl-3 hover:text-gray-600" href="javascript:void(0)" x-data @click="window.scroll({ top: 0, left: 0, behavior: 'smooth' })">&ndash; Return to Top</a>
+<a class="block py-1 transition-all hover:pl-3 hover:text-gray-600" href="tos.html">&ndash; Terms & Conditions</a>
+<a class="block py-1 transition-all hover:pl-3 hover:text-gray-600" href="vote.html">&ndash; Vote for ValoCraft</a>
+<a class="block py-1 transition-all hover:pl-3 hover:text-gray-600" href="support.html">&ndash; Get Support</a>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="title text-white font-bold text-xl pb-6">Support ValoCraft</div>
+<div class="content">
+<p class="mb-5 text-xl">Get amazing rewards while supporting the continued growth and development of ValoCraft!</p>
+<a href="https://store.valocraft.in" class="btn btn-main">
+<svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 mr-2">
+<path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+<span>Shop Now</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="container mx-auto md:flex items-center justify-between pb-10">
+<div class="copyright text-sm font-bold" x-data="copyright()">
+<p>&copy; <b class="text-gray-600">ValoCraft</b> <span x-text="year">2020</span>. All Rights Reserved.</p>
+<p>We are not affiliated with Mojang Studios.</p>
+</div>
+</a>
+  <div class="credit lg:text-right font-bold text-sm pt-6 md:pt-0 md:text-right">
+<a href="https://krushna.me" class="block transition-opacity opacity-50 hover:opacity-100">
+<span class="pb-1">Designed by Dornox</span>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+<script src="ajax/libs/clipboard_js/2.0.4/clipboard.min.js" ></script>
+<script src="npm/_ryangjchandler/spruce_2.x.x/dist/spruce.umd.js"></script>
+<script src="assets/built/script.js"></script>
+</body>
+</html>
